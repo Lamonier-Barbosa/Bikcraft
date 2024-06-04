@@ -41,7 +41,8 @@
 }
 
 .depoimento p::after {
-    content: '”'
+    content: '”';
+    bottom: -45px;
 }
 
 @media (min-width: 1200px) {
@@ -63,5 +64,16 @@
     .depoimento-conteudo {
         padding: 40px 20px;
         margin: auto;
+    }
+
+    .depoimento p::after {
+        font-size: 3rem;
+        bottom: -23px;
+    }
+
+    .depoimento p::before {
+        font-size: 3rem;
+        left: -24px;
+        top: -15px
     }
 }
