@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic | Bikcraft</title>
     <meta name="description" content="Magic">
-    <link rel="stylesheet" href="../css/style.css">
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="../css/style.min.css" as="style">
+    <link rel="stylesheet" href="../css/style.min.css">
+
+    <script>document.documentElement.classList.add('js')</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500;&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&family=Merriweather:ital,wght@0,900;1,900&display=swap"
-        rel="stylesheet"> -->
+        rel="stylesheet">
 </head>
 
 <body id="bicicleta">
@@ -23,9 +27,9 @@
             </a>
             <nav aria-label="primaria">
                 <ul class="header-menu font-1-m cor-0">
-                    <li><a href="./bicicletas.html">Bicicletas</a></li>
-                    <li><a href="./seguros.html">Seguros</a></li>
-                    <li><a href="./contato.html">Contato</a></li>
+                    <li><a href="../bicicletas.html">Bicicletas</a></li>
+                    <li><a href="../seguros.html">Seguros</a></li>
+                    <li><a href="../contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,8 +38,8 @@
     <main class="titulo-bg">
         <div>
             <div class="titulo container">
-                <p class="font-2-xl cor-5">R$ 2499</p>
-                <h1 class="font-1-xxl cor-0">Magic Might<span class="cor-p1">.</span></h1>
+                <p class="font-2-xl cor-5 fadeInDown" data-anime="200">R$ 2499</p>
+                <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="400">Magic Might<span class="cor-p1">.</span></h1>
             </div>
         </div>
         <div class="bicicleta container">
@@ -162,6 +166,8 @@
             <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
+
+    <script src="../js/plugins/simple-anime.js"></script>;
     <script src="../js/script.js"></script>
 </body>
 
