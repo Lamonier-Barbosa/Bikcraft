@@ -52,8 +52,9 @@
     height: 10px;
     margin-left: 12px;
     background: url(../../img/icones/seta.svg);
-    transition: transform 0.3s;
+    transition: 0.3s;
 }
+
 
 .botao.seta:hover:after {
     transform: translateX(6px);
