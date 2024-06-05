@@ -45,7 +45,7 @@
     align-items: center;
 }
 
-.botao.seta::after {
+/* .botao.seta::after {
     content: '';
     display: inline-block;
     width: 18px;
@@ -55,10 +55,9 @@
     transition: 0.3s;
 }
 
-
 .botao.seta:hover:after {
     transform: translateX(6px);
-}
+} */
 
 @media (max-width: 600px) {
     .botao {
