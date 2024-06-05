@@ -55,9 +55,9 @@
     transition: 0.3s;
 }
 
-.botao.seta:hover:after {
+/* .botao.seta:hover:after {
     transform: translateX(6px);
-}
+} */
 
 @media (max-width: 600px) {
     .botao {
