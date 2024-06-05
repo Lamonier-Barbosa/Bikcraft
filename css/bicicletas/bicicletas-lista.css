@@ -47,7 +47,7 @@
     width: 12px;
     margin-right: 8px;
     background-color: var(--cor-p1);
-    transition: width 0.2s;
+    transition: 0.2s;
 }
 
 .bicicletas-lista a:hover h3::before {
